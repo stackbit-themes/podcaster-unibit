@@ -430,7 +430,6 @@ models:
         description: Page sections
         items:
           type: model
-          labelField: title
           models:
             - hero_section
             - features_section
@@ -1501,7 +1500,6 @@ models:
         name: url
         label: URL
         required: true
-        widget: url
       - type: enum
         name: style
         label: Style
@@ -1582,7 +1580,6 @@ models:
             - noimageindex
             - notranslate
             - none
-          default: all
       - type: list
         name: extra
         label: Extra
