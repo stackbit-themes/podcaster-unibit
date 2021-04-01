@@ -1580,6 +1580,7 @@ models:
             - noimageindex
             - notranslate
             - none
+        default: [all]
       - type: list
         name: extra
         label: Extra
